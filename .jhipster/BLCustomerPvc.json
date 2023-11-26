@@ -1,0 +1,109 @@
+{
+  "name": "BLCustomerPvc",
+  "fields": [
+    {
+      "fieldName": "cif",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fullName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateOfBirth",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "branch",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "blCustomerId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateOfBirthBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdTypeBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matchAttr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valueAttr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "weightAttr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "remark",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "Bảng BLCustomer: lưu thông tin customer thuộc blacklist",
+  "entityTableName": "bl_customer_pvc",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231106062446"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "BLCondition",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "blackListFlds",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customerFlds",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "weightPoint",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+
+  ],
+  "relationships": [],
+  "entityTableName": "bl_condition",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231116014200"
+}

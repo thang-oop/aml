@@ -1,0 +1,16 @@
+entity BLMappingParam {
+    sourceName String
+	sourceFilePrefix String
+	templateCols String
+    templateRef String 
+    sourceCols String
+    sourceRef String 
+	recordStatus String
+    createdBy String
+    dateCreated String
+    authoriseBy String
+    dateAuthorise String
+} 
+
+paginate * with pagination
+filter *

@@ -1,0 +1,133 @@
+{
+  "name": "BLCustomer",
+  "fields": [
+    {
+      "fieldName": "fullName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherName1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherName2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherName3",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "positionBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateOfBirthBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countryBl1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "countryBl2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdTypeBl1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdNumber1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdTypeBl2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "legalIdNumber2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "otherInfLegal1",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "otherInfLegal2",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "addressBl1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressBl2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressNowBl1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "addressNowBl2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeBl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "source",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "uploadFileId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "coCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "Bảng BLCustomer: lưu thông tin customer thuộc blacklist",
+  "entityTableName": "bl_customer",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231106062445"
+}

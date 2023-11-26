@@ -1,0 +1,107 @@
+/* Bảng Blacklist Paramer : khai báo tham số*/
+
+entity BLParamter {
+    keyId String
+    keyValue String
+    operator String
+    parentKey String
+    description String
+    createdBy String
+    dateCreated String
+}
+/**
+ * Bảng BLUploadFile : lưu thông tin các file upload
+ */
+entity BLUploadFile {
+    fileName String
+    systemFileName String
+    description String
+    tagetCompany String
+    validate String
+    serviceStatus String
+    fileSize Long
+    recordStatus String
+    uploadBy String
+    dateUpload Instant
+    authoriseBy String
+    dateAuthorise Instant
+    createdBy String
+    dateCreated String
+}
+
+/**
+ * Bảng BLCustomer: lưu thông tin customer thuộc blacklist
+ */
+entity BLCustomer {
+    fullName String
+    firstName String
+    lastName String
+    otherName1 String
+    otherName2 String
+    otherName3 String
+    positionBl String
+    dateOfBirthBl String 
+    countryBl1 String
+    countryBl2 String
+    legalIdTypeBl1 String
+    legalIdNumber1 String
+    legalIdTypeBl2 String
+    legalIdNumber2 String
+    otherInfLegal1 Instant
+    otherInfLegal2 Instant
+    addressBl1 String
+    addressBl2 String
+    addressNowBl1 String
+    addressNowBl2 String
+    typeBl String
+    source String
+    recordStatus String
+    uploadFileId String
+    coCode String
+    createdBy String
+    dateCreated Instant
+    authoriseBy String
+    dateAuthorise Instant
+    createdBy String
+    dateCreated String
+}
+
+/**
+ * Bảng BLCustomer: lưu thông tin customer thuộc blacklist
+ */
+entity BLCustomerPvc {
+    cif String
+    fullName String
+    dateOfBirth	String
+    legalId String
+    legalType String
+    branch String
+    blCustomerId String
+    nameBl String
+    dateOfBirthBl String 
+    legalIdTypeBl String
+    legalIdNumber String
+    matchAttr String
+    valueAttr String
+    weightAttr String
+    score String
+    status String
+    remark String
+    recordStatus String
+    coCode String
+    createdBy String
+    dateCreated Instant
+    authoriseBy String
+    dateAuthorise Instant
+    createdBy String
+    dateCreated String
+}
+
+entity JhiUserAuthority {
+    userId String,
+    authorityName String
+}
+
+paginate * with pagination
+filter *
+

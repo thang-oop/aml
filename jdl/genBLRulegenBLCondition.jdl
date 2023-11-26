@@ -1,0 +1,26 @@
+
+
+entity BLRule {
+   name String
+   description String
+   sourceIds String
+   customerType String
+   scoreMinimum Long
+   createdBy String
+   dateCreated String
+   authoriseBy String
+   dateAuthorise String
+}
+
+entity BLCondition {
+   name String
+   description String
+   blackListFlds String
+   customerFlds String
+   weightPoint Long
+   ruleId Long
+   createdBy String
+   dateCreated String
+   authoriseBy String
+   dateAuthorise String
+}

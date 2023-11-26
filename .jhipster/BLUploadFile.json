@@ -1,0 +1,65 @@
+{
+  "name": "BLUploadFile",
+  "fields": [
+    {
+      "fieldName": "fileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "systemFileName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tagetCompany",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "validate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "serviceStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileSize",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "recordStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "uploadBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateUpload",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "javadoc": "Bảng BLUploadFile : lưu thông tin các file upload",
+  "entityTableName": "bl_upload_file",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231106062444"
+}

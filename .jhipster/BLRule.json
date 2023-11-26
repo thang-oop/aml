@@ -1,0 +1,52 @@
+{
+  "name": "BLRule",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sourceIds",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "customerType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "scoreMinimum",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "bl_rule",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231116014159"
+}

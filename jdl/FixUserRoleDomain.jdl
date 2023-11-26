@@ -1,0 +1,5 @@
+entity JhiUserAuthority {
+    userId String,
+    authorityName String
+}
+

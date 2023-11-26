@@ -1,0 +1,52 @@
+{
+  "name": "BLSourceData",
+  "fields": [
+    {
+      "fieldName": "sourceName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sourceFilePrefix",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sourceCols",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sourceRef",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateCreated",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authoriseBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateAuthorise",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "bl_source_data",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231113081110"
+}
